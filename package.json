@@ -1,0 +1,19 @@
+{
+  "name": "how-can-we-view-the-web-2024",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "marp --server docs",
+    "build": "marp --input-dir docs --output dist"
+  },
+  "keywords": [],
+  "author": "TOMIKAWA Sotaro <tommysouta@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "prettier": "^3.2.4"
+  },
+  "packageManager": "pnpm@8.15.6"
+}
